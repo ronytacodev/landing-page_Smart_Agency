@@ -2,7 +2,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-/* NAVBAR */
+/* INICIO NAVBAR */
 .navbar {
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
@@ -29,3 +29,23 @@ body {
 .navbar-toggler:focus {
     outline: none;
 }
+
+/* FIN NAVBAR */
+
+/* INICIO HERO */
+#hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #fff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+/* FIN HERO */
