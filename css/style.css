@@ -8,12 +8,26 @@ h1 {
     line-height: 80px;
 }
 
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+
 p {
     font-size: 20px;
     color: #999;
     line-height: 1.8;
     margin-bottom: 0;
     font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section {
+    padding: 120px 0;
 }
 
 .topmargin-xs {
@@ -26,6 +40,10 @@ p {
 
 .topmargin-lg {
     margin-top: 60px;
+}
+
+.toppadding {
+    padding-top: 50px;
 }
 
 .btn {
@@ -49,6 +67,10 @@ p {
 
 ion-icon {
     margin-bottom: -2px;
+}
+
+.text-dark {
+    color: #1a1a1a;
 }
 
 /* INICIO NAVBAR */
@@ -83,7 +105,7 @@ ion-icon {
 
 /* INICIO HERO */
 #hero {
-    background-image: url('../images/hero4.jpg');
+    background-image: url('../images/hero.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -98,10 +120,52 @@ ion-icon {
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
-    color: #1a1a1a;
+    color: #fff;
 }
 
 /* FIN HERO */
+
+/* INICIO PORTFOLIO */
+
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    height: 50rem;
+    width: 50rem;
+}
+
+.portfolio-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details h2 {
+    margin-bottom: 0px;
+}
+
+.portfolio-details a h2,
+.portfolio-details a p {
+    color: #fff;
+}
+
+
+/* FIN PORTFOLIO */
 
 /* MEDIA QUERIES BOOTSTRAP */
 
