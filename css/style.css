@@ -21,3 +21,11 @@ body {
     min-width: 160px;
     max-width: 180px;
 }
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
