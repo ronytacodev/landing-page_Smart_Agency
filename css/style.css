@@ -2,6 +2,55 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p {
+    font-size: 20px;
+    color: #b1a538;
+    line-height: 1.8;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.topmargin-xs {
+    margin-top: 15px;
+}
+
+.topmargin-sm {
+    margin-top: 30px;
+}
+
+.topmargin-lg {
+    margin-top: 60px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 20px;
+    min-width: 160px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #1a1a1a;
+    border: 2px solid #fff;
+}
+
+.btn ion-icon {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+ion-icon {
+    margin-bottom: -2px;
+}
+
 /* INICIO NAVBAR */
 .navbar {
     background-color: #fff;
@@ -34,10 +83,14 @@ body {
 
 /* INICIO HERO */
 #hero {
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/hero4.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
+    color: #1a1a1a;
+}
+
+#hero p {
     color: #fff;
 }
 
@@ -49,3 +102,22 @@ body {
 }
 
 /* FIN HERO */
+
+/* MEDIA QUERIES BOOTSTRAP */
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+/* FIN MEDIA QUERIES BOOTSTRAP */
