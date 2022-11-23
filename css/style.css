@@ -74,6 +74,16 @@ section {
     border: 2px solid #1a1a1a;
 }
 
+.btn-transparent {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-transparent:hover {
+    color: #fff;
+}
+
 .btn ion-icon {
     font-size: 16px;
     margin-left: 5px;
@@ -265,14 +275,48 @@ ion-icon {
         font-size: 40px;
         line-height: normal;
     }
+
+    .portfolio-container img {
+        padding: 0px 10px;
+        height: 30rem;
+    }
+
+    .portfolio-details h2 {
+        font-size: 32px;
+    }
+
+    .plans {
+        min-width: unset;
+        padding: 40px;
+    }
 }
 
-@media (min-width: 576px) {}
+@media (max-width: 576px) {}
 
-@media (min-width: 768px) {}
+@media (min-width:578px) and (max-width: 767.98px) {}
 
-@media (min-width: 992px) {}
+@media (min-width:768px) and (max-width: 991.98px) {
 
-@media (min-width: 1200px) {}
+    .portfolio-details h2 {
+        font-size: 30px;
+    }
+
+    .portfolio-container img {
+        height: 30rem;
+        margin-left: 7px;
+    }
+
+    .member-container img {
+        height: 22rem;
+        width: 45rem;
+    }
+
+    .plans {
+        min-width: unset;
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 1200px) {}
 
 /* FIN MEDIA QUERIES BOOTSTRAP */
