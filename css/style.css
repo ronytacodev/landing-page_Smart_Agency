@@ -14,6 +14,10 @@ h2 {
     color: #1a1a1a;
 }
 
+h5 {
+    margin-bottom: 0px;
+}
+
 p {
     font-size: 20px;
     color: #999;
@@ -28,6 +32,10 @@ a:hover {
 
 section {
     padding: 120px 0;
+}
+
+.bg-light-grey {
+    background-color: #f5f5f5;
 }
 
 .topmargin-xs {
@@ -169,8 +177,35 @@ ion-icon {
     color: #fff;
 }
 
-
 /* FIN PORTFOLIO */
+
+
+/* INICIO SECCION ABOUT US */
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details {
+    position: absolute;
+    color: #fff;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details ion-icon {
+    padding: 0 5px;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+/* FIN SECCION ABOUT US */
+
 
 /* MEDIA QUERIES BOOTSTRAP */
 
