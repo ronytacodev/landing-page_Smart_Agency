@@ -73,6 +73,11 @@ ion-icon {
     color: #1a1a1a;
 }
 
+.text-center {
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
 /* INICIO NAVBAR */
 .navbar {
     background-color: #fff;
