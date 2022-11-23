@@ -174,12 +174,13 @@ ion-icon {
     transition: all 0.8s;
     height: 50rem;
     width: 50rem;
+    padding-left: 3px;
 }
 
 .portfolio-container:hover img {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .portfolio-details {
