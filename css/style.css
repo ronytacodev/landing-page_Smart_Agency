@@ -203,8 +203,32 @@ ion-icon {
     color: #fff;
 }
 
-
 /* FIN SECCION ABOUT US */
+
+
+/* INICIO SECCION PRICING */
+.pricing-container {
+    margin: 15px 0;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plan-light {
+    background-color: #fff;
+    border: 2px solid #1a1a1a;
+}
+
+.plan-dark {
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    color: #fff;
+}
+
+/* FIN SECCION PRICING */
 
 
 /* MEDIA QUERIES BOOTSTRAP */
