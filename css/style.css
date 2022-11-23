@@ -68,6 +68,12 @@ section {
     border: 2px solid #fff;
 }
 
+.btn-dark {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 2px solid #1a1a1a;
+}
+
 .btn ion-icon {
     font-size: 16px;
     margin-left: 5px;
@@ -75,6 +81,10 @@ section {
 
 ion-icon {
     margin-bottom: -2px;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .text-dark {
@@ -226,6 +236,23 @@ ion-icon {
     background-color: #1a1a1a;
     border: 2px solid #1a1a1a;
     color: #fff;
+}
+
+.plan-dark h2 {
+    color: #fff;
+}
+
+.plans h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.plans span {
+    font-size: 20px;
+}
+
+.plans ul {
+    list-style-type: square;
 }
 
 /* FIN SECCION PRICING */
