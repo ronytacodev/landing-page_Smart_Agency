@@ -111,6 +111,7 @@ ion-icon {
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     min-height: 100px;
+    z-index: 1000;
 }
 
 .nav-link {
@@ -185,7 +186,7 @@ ion-icon {
     position: absolute;
     bottom: 25px;
     left: 25px;
-    z-index: 9000;
+    z-index: 999;
 }
 
 .portfolio-details h2 {
@@ -276,6 +277,10 @@ ion-icon {
         line-height: normal;
     }
 
+    .logo-brand {
+        padding-top: 15px;
+    }
+
     .portfolio-container img {
         padding: 0px 10px;
         height: 30rem;
@@ -291,11 +296,13 @@ ion-icon {
     }
 }
 
-@media (max-width: 576px) {}
-
-@media (min-width:578px) and (max-width: 767.98px) {}
+@media (min-width:576px) and (max-width: 767.98px) {}
 
 @media (min-width:768px) and (max-width: 991.98px) {
+
+    .logo-brand {
+        margin-top: 32px;
+    }
 
     .portfolio-details h2 {
         font-size: 30px;
