@@ -101,6 +101,10 @@ ion-icon {
     color: #1a1a1a;
 }
 
+.divider {
+    border-bottom: 2px solid #f5f5f5;
+}
+
 .text-center {
     margin: 0 auto;
     padding-top: 1.5rem;
@@ -287,7 +291,7 @@ ion-icon {
 .carousel-indicators li {
     background-color: #1a1a1a;
     width: 15px;
-    height: 15px;
+    height: 5px;
     border-radius: 2px;
     margin: 0 8px;
 }
@@ -315,11 +319,30 @@ ion-icon {
     font-size: 20px;
 }
 
-
-
 .rating ion-icon {
     color: #ffb944;
     font-size: 26px;
+}
+
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
 }
 
 /* FIN SECCION TESTIMONIALS */
