@@ -168,8 +168,11 @@ ion-icon {
 .portfolio-container {
     position: relative;
     overflow: hidden;
-    margin: 10px 0;
+    margin: 10px 10px;
     border-radius: 2px;
+    /* height: 50rem;
+    width: 50rem;
+    padding-left: 3px; */
 }
 
 .portfolio-container img {
@@ -178,7 +181,7 @@ ion-icon {
     transition: all 0.8s;
     height: 50rem;
     width: 50rem;
-    padding-left: 3px;
+    /* padding-left: 3px;  */
 }
 
 .portfolio-container:hover img {
