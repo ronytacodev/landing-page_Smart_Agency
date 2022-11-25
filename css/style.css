@@ -373,6 +373,14 @@ ion-icon {
         min-width: unset;
         padding: 40px;
     }
+
+    .carousel-item p {
+        font-size: 18px;
+    }
+
+    .testimonial-user {
+        text-align: center;
+    }
 }
 
 @media (min-width:576px) and (max-width: 767.98px) {}
