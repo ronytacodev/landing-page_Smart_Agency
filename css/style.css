@@ -351,6 +351,24 @@ ion-icon {
 /* FIN SECCION TESTIMONIALS */
 
 
+/* INICIO SECCION CONTACT */
+.form-control {
+    font-size: 14px;
+    border: 1px solid #dbdada;
+    padding: 15px;
+    border-radius: 3px;
+    height: auto;
+}
+
+.form-control:focus {
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+}
+
+/* FIN SECCION CONTACT */
+
+
 /* MEDIA QUERIES BOOTSTRAP */
 
 @media (max-width: 575.98px) {
