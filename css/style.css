@@ -39,19 +39,19 @@ section {
 }
 
 .bg-dark {
-    background-color: #1a1a1a;
+    background-color: #1a1a1a !important;
 }
 
 .topmargin-xs {
-    margin-top: 15px;
+    margin-top: 15px !important;
 }
 
 .topmargin-sm {
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 
 .topmargin-lg {
-    margin-top: 60px;
+    margin-top: 60px !important;
 }
 
 .toppadding {
@@ -373,6 +373,31 @@ ion-icon {
 /* FIN SECCION CONTACT */
 
 
+/* INICIO SECCION FOOTER */
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+#footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+#footer ion-icon {
+    font-size: 20px;
+}
+
+/* FIN SECCION FOOTER */
+
 /* MEDIA QUERIES BOOTSTRAP */
 
 @media (max-width: 575.98px) {
@@ -405,6 +430,12 @@ ion-icon {
 
     .testimonial-user {
         text-align: center;
+    }
+
+    .footer-menu {
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
     }
 }
 
