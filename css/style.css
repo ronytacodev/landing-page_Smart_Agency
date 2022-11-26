@@ -38,6 +38,10 @@ section {
     background-color: #f5f5f5;
 }
 
+.bg-dark {
+    background-color: #1a1a1a;
+}
+
 .topmargin-xs {
     margin-top: 15px;
 }
